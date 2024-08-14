@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+.search-container{
+    height: 30px;
+    width:100px;
+    border-radius: 0px;
+    border: 1px solid rgb(128, 126, 126);
+    width: 50%;
+    margin: 50px;
+    background-color: rgb(199, 199, 199);
+}
+.search-container-main{
+    width:100vw;
+    background-color: black;
+}

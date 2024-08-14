@@ -1,0 +1,99 @@
+/* CartPage.css */
+.cart-page {
+  padding: 20px;
+}
+
+.cart-page h1 {
+  margin-bottom: 20px;
+  font-size: 2em; /* Ensures heading is prominent */
+}
+
+.cart-page ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cart-page li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc; /* Adds a separator between items */
+  padding-bottom: 10px;
+}
+
+.cart-page img {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  object-fit: cover; /* Ensures images maintain aspect ratio */
+}
+
+.cart-page .quantity-controls {
+  display: flex;
+  align-items: center;
+}
+
+.cart-page .quantity-controls button {
+  margin: 0 10px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cart-page .quantity-controls button:hover {
+  background-color: #0056b3;
+}
+
+.cart-page .total-price {
+  margin-top: 20px;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333;
+}
+
+
+/*
+.cart-page {
+    padding: 20px;
+  }
+  
+  .cart-page h1 {
+    margin-bottom: 20px;
+  }
+  
+  .cart-page ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .cart-page li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .cart-page img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+  }
+  
+  .cart-page .quantity-controls {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart-page .quantity-controls button {
+    margin: 0 10px;
+    padding: 5px 10px;
+  }
+  
+  .cart-page .total-price {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  */
